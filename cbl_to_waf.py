@@ -55,10 +55,10 @@ indices = {
         'WVFC': 'wcal_idx',
     },
     'data': {
-        'w3_idx': np.linspace(0, 500, 250 + 1),
-        'w5_idx': np.linspace(0, 1500, 750 + 1),
-        'ws_idx': np.linspace(0, 300, 150 + 1),
-        'wcal_idx': np.linspace(0, 600, 200 + 1),
+        'w3_idx': np.linspace(0, 500, 250 + 1)[1:],
+        'w5_idx': np.linspace(0, 1500, 750 + 1)[1:],
+        'ws_idx': np.linspace(0, 300, 150 + 1)[1:],
+        'wcal_idx': np.linspace(0, 600, 200 + 1)[1:],
     },
     'units': {
         'w3_idx': 'us',
